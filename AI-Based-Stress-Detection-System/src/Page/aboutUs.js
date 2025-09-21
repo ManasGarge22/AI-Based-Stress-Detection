@@ -3,24 +3,18 @@ import './aboutUs.css';
 
 const teamMembers = [
   {
-    name: 'Dahami Sankalpani',
+    name: 'Manas Garge',
     role: 'Team Leader',
-    photo: require('../img/Dahami.jpg'),
+    photo: require('../img/Manas.jpg'),
   },
   {
-    name: 'Gaviru Nimtharu',
-    role: 'AI/Backend Developer',
-    photo: require('../img/Nimtharu.jpg'),
+    
   },
   {
-    name: 'Mohommad Nazik',
-    role: 'Frontend Developer',
-    photo: require('../img/Nazik.jpg'),
+    
   },
   {
-    name: 'Lalitha Sri Vidhara',
-    role: 'Backend/AI Developer',
-    photo: require('../img/Lalitha.jpg'),
+   
   },
   
 ];
@@ -29,7 +23,7 @@ const AboutUs = () => {
   return (
     <div className="about-us-container">
       <h1>About Us</h1>
-      <p>We are Group 11, a team of dedicated individuals collaborating to create a powerful stress detection system.</p>
+      <p>We are Team ZENO, a team of dedicated individuals collaborating to create a powerful stress detection system.</p>
       <div className="team-members">
         {teamMembers.map((member, index) => (
           <div key={index} className="team-member-card">
